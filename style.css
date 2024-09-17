@@ -238,14 +238,20 @@ header {
 
 /* Services Section */
 .services {
-    margin: 0 auto;
-    padding: 5rem 12.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    
   }
   
   .services-col {
     width: 33%;
     padding: 2rem 2.2rem;
     background-color: white;
+    flex: 1;
+  padding: 20px;
+  text-align: center;
+
   }
   
   .services-col:first-child {
