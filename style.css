@@ -162,6 +162,7 @@ header nav ul li a:hover {
 .service-box:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 .service-box h3 {
@@ -191,6 +192,7 @@ header nav ul li a:hover {
     border-radius: 10px;
     margin-bottom: 15px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
 }
 
 .destination-box img:hover {
@@ -247,6 +249,7 @@ blockquote .blockquote-footer {
 .blog-post img:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 .blog-post h3 {
@@ -333,3 +336,4 @@ footer p {
         padding: 40px 5%;
     }
 }
+
