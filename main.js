@@ -10,16 +10,7 @@ document.querySelectorAll('a.nav-link').forEach(anchor => {
     });
 });
 
-// // Mobile menu toggle
-// const menu = document.querySelector('header nav ul');
-// const toggleButton = document.createElement('button');
-// toggleButton.textContent = 'Menu';
-// toggleButton.classList.add('menu-toggle');
-// document.querySelector('header').appendChild(toggleButton);
 
-// toggleButton.addEventListener('click', () => {
-//     menu.classList.toggle('active');
-// });
 
 // Form validation
 document.querySelector('form').addEventListener('submit', function(e) {
@@ -32,3 +23,21 @@ document.querySelector('form').addEventListener('submit', function(e) {
         alert("Please fill out all fields.");
     }
 });
+
+
+$(document).ready(function() {
+    $('#contactForm').on('submit', function(event) {
+      event.preventDefault();  // Prevent the form from actually submitting
+     
+      const name = $('#name').val();
+      const email = $('#email').val();
+      const message = $('#message').val();
+
+      if (name && email && message) {
+        // Show the modal using jQuery and Bootstrap
+        $('#contactModal').modal('show');
+      } else {
+        alert('Please fill in all fields.');
+      }
+    });
+  });
