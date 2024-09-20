@@ -4,7 +4,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+.leoni {
+    font-family: cursive;
+    text-align: center;
+    color: bisque;
+}
 
+.nav{
+    margin-right: 70px;
+}
+.nav-link{
+    color: whitesmoke;
+}
+.ala{
+    font-family: cursive;
+    color: white;
+}
+.arne{
+    color: bisque;
+}
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -40,14 +58,19 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #004d66;
+    background-color: #00b3b3;
     padding: 20px 10%;
     color: white;
     position: sticky;
     top: 0;
     z-index: 10;
 }
-
+.text-center1{
+    font-family: fantasy;
+}
+.text-center{
+    background-color: bisque;
+}
 
 .logo h1 {
     font-size: 2rem;
@@ -83,7 +106,7 @@ header nav ul li a:hover {
 
 /* Hero Section */
 #hero {
-    background-image: url('');
+    background-image: url('backroundi222.jpg');
     background-size: cover;
     background-position: center;
     height: 80vh;
